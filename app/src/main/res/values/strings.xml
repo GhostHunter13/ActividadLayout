@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Actividad6</string>
+    <string name="descripcionConstraint">Es muy parecido a RelativeLayout, pero más flexible y fácil de usar desde el editor visual de Android Studio (disponible desde la versión 2.3).
+        De hecho, se recomienda crear tu layout con las herramientas drag-and-drop, en lugar de editar el fichero XML. El resto de layouts, son más fáciles de crear desde XML.
+        Las posiciones de las diferentes vistas dentro de este layout se definen usando constraint.</string>
+    <string name="descripcionLinearVertical">LinearLayout es uno de los diseños más simples y más empleado. Simplemente establece los componentes visuales uno junto al otro, ya sea horizontal o verticalmente.</string>
+    <string name="descripcionRelativa">RelativeLayout es un grupo de vistas que muestra vistas secundarias en posiciones relativas. La posición de cada vista puede especificarse como relativa a elementos equivalentes (como a la izquierda o por debajo de otra vista) o en posiciones relativas al área RelativeLayout superior (como alineada a la parte inferior, izquierda o central).</string>
+    <string name="descripcionTable">
+        TableLayout posiciona sus elementos secundarios en filas y columnas. Los contenedores de TableLayout no muestran líneas de bordes para las filas, columnas o celdas.
+        La tabla tendrá la misma cantidad de columnas que la fila con la mayor cantidad de celdas. Una tabla puede dejar celdas vacías. Las celdas pueden abarcar varias columnas, al igual que en HTML.
+        Puedes abarcar columnas si usas el campo span de la clase TableRow.LayoutParams.
+    </string>
+</resources>

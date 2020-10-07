@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backGroundColor"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="45dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:fontFamily="@font/coming_soon"
+            android:shadowColor="@color/yellowTitleShadow"
+            android:text="Menú Principal"
+            android:textColor="@color/yellowTitle"
+            android:textSize="45sp" />
+
+        <Button
+            android:id="@+id/btnToConstraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/anotherButton"
+            android:fontFamily="serif-monospace"
+            android:text="Constraint Layout" />
+
+        <Button
+            android:background="@color/colorAccent"
+            android:id="@+id/btnToLayoutHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Layout Horizontal"
+            android:fontFamily="serif-monospace"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:background="@color/yellowTitle"
+            android:id="@+id/btnToLayoutVertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Layout Vertical"
+            android:fontFamily="serif-monospace"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:background="@color/yellowTitleShadow"
+            android:id="@+id/btnToRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Relative Layout"
+            android:fontFamily="serif-monospace"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:background="@color/anotherButton"
+            android:id="@+id/btnToTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Table Layout"
+            android:fontFamily="serif-monospace"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Salir"/>
+
+    </LinearLayout>
+
+</LinearLayout>
